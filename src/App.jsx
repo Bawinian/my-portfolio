@@ -152,7 +152,7 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-2 p-8 bg-slate-900/30 border border-slate-800 rounded-2xl flex flex-col md:flex-row gap-8 items-center">
             <div className="w-48 h-48 flex-shrink-0 rounded-xl overflow-hidden border-2 border-emerald-500/20 relative group">
-              <img src="https://drive.google.com/uc?export=view&id=1lfODsB66iYduhtzt0_Cd_9dGQ3Lnsz1W" alt="Divine" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" />
+              <img src="https://drive.google.com/thumbnail?id=1lfODsB66iYduhtzt0_Cd_9dGQ3Lnsz1W&sz=w1000" alt="Divine" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" />
               <div className="absolute inset-0 bg-emerald-500/10 group-hover:bg-transparent"></div>
             </div>
             <div className="space-y-4">
