@@ -58,7 +58,7 @@ export default function App() {
     {
       title: "Software & Systems",
       icon: <Cpu className="text-emerald-400" size={20} />,
-      skills: ["React.js", "Python", "Tailwind CSS", "Embedded Systems", "Git/GitHub", "Node.js"]
+      skills: ["React.js", "NextJS", "Python", "Tailwind CSS", "Embedded Systems", "Git/GitHub", "Node.js", "Firebase.js", "PostgreSQL"]
     },
     {
       title: "Core Logic & Math",
@@ -69,19 +69,20 @@ export default function App() {
 
   const projects = [
     {
-      title: "Aerodynamic Simulation Suite",
-      desc: "A high-fidelity tool for calculating drag coefficients in real-time environments.",
-      tags: ["Python", "Aerospace", "Physics"],
-      videoUrl: "#",
-      img: "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&q=80&w=800"
+      title: "SMART VISUALIZATION TOOL FOR AIRFOIL PERFORMANCE",
+      desc: "Smart visualization tool for analyzing the lift-to-drag (L/D) ratio of airfoils under varying flight conditions. The goal was to create a lightweight, interactive system that helps users interpret aerodynamic performance data without requiring direct use of simulation software.",
+      tags: ["Python", "Aerospace", "Physics","Research"],
+      videoUrl: "https://youtu.be/KBeJ8UKdWxU?si=uLpo4ylhEc6Xg0qM",
+      img: "./REFIMAGE.png",
+      img: "https://drive.google.com/thumbnail?id=11wYZc5dOkasozAEdquEH9s4-thV5Qfc2&sz=w1000"
     },
-    {
-      title: "Olympiad Level Informatics Engine",
-      desc: "Competitive programming platform designed for complex algorithm visualization.",
-      tags: ["React", "Algorithms", "Informatics"],
-      videoUrl: "#",
-      img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
-    }
+    // {
+    //   title: "Olympiad Level Informatics Engine",
+    //   desc: "Competitive programming platform designed for complex algorithm visualization.",
+    //   tags: ["React", "Algorithms", "Informatics"],
+    //   videoUrl: "#",
+    //   img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
+    // }
   ];
 
   return (
@@ -123,7 +124,7 @@ export default function App() {
               {/* Designing the <span className="text-emerald-400">Future</span> of Flight. */}
             </h1>
             <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
-              Informatics expert and 3x Olympiad winner. I bridge the gap between complex aerospace physics and high-performance digital systems.
+              Freelance Web developer. Software programmer. Informatics expert and 3x Olympiad winner. As an aerospace engineering graduate I bridge the gap between complex aerospace physics and high-performance digital systems.
             </p>
           </div>
           <div className="relative group">
@@ -156,7 +157,9 @@ export default function App() {
               <div className="absolute inset-0 bg-emerald-500/10 group-hover:bg-transparent"></div>
             </div>
             <div className="space-y-4">
-              <p className="text-slate-300 leading-relaxed text-lg">I am <span className="text-emerald-400 font-semibold">Divine Bawa</span>. My journey is rooted in logic, having won 3 Olympiads in Abuja across Math and Informatics.</p>
+              <p className="text-slate-300 leading-relaxed text-lg">I am <span className="text-emerald-400 font-semibold">Divine Bawa</span>. My journey is rooted in logic, having won 3 Olympiads in Abuja across Math and Informatics in secondary school. I also just graduated with an Aerospace Engineering degree from Air Force Institute of Technology, Kaduna. I am in love with designing, programming and the beauty of algorithms.
+              
+              </p>
             </div>
           </div>
           <div className="p-8 bg-emerald-500/5 border border-emerald-500/10 rounded-2xl">
