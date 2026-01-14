@@ -76,13 +76,13 @@ export default function App() {
       img: "./REFIMAGE.png",
       img: "https://drive.google.com/thumbnail?id=1wevAbKqzj_lie86qMo_7lGuxMu5LU62m&sz=w1000"
     },
-    // {
-    //   title: "Olympiad Level Informatics Engine",
-    //   desc: "Competitive programming platform designed for complex algorithm visualization.",
-    //   tags: ["React", "Algorithms", "Informatics"],
-    //   videoUrl: "#",
-    //   img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
-    // }
+    {
+      title: "YC Directory",
+      desc: "Startup Directory website collaboration.",
+      tags: ["NextJS", "Sanity", "Typescript"],
+      videoUrl: "https://youtu.be/Mip-wIa36do",
+      img: "https://drive.google.com/thumbnail?id=1JLViiCqEM085fVwCm0qHOgjy_P_EEi9w&sz=w1000"
+    }
   ];
 
   return (
