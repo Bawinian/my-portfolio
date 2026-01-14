@@ -74,7 +74,7 @@ export default function App() {
       tags: ["Python", "Aerospace", "Physics","Research"],
       videoUrl: "https://youtu.be/KBeJ8UKdWxU?si=uLpo4ylhEc6Xg0qM",
       img: "./REFIMAGE.png",
-      img: "https://drive.google.com/thumbnail?id=11wYZc5dOkasozAEdquEH9s4-thV5Qfc2&sz=w1000"
+      img: "https://drive.google.com/thumbnail?id=1wevAbKqzj_lie86qMo_7lGuxMu5LU62m&sz=w1000"
     },
     // {
     //   title: "Olympiad Level Informatics Engine",
